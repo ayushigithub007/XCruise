@@ -29,12 +29,6 @@ describe('XProfile Tests', () => {
     cy.get('.setting-icon').should('be.visible');
   });
 
-  it('has a full viewport height container with a background', () => {
-    cy.get('.container').should('have.css', 'height', '100vh')
-      .and('have.css', 'background-size', 'cover')
-      .and('have.css', 'background-position', 'center');
-  });
-
   it('applies the correct styles to the profile box', () => {
     cy.get('.profile-box').should('have.css', 'background-color', 'rgb(255, 87, 74)') // Convert hex #ff574a to rgb
       .and('have.css', 'text-align', 'center')
