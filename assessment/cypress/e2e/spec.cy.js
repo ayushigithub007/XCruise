@@ -1,56 +1,98 @@
-describe('XProfile Tests', () => {
+// Import Cypress real events plugin
+import "cypress-real-events/support";
+
+describe("Intro Section with Dropdown Navigation", () => {
   beforeEach(() => {
-    // Visits the page before each test
-    cy.visit('http://localhost:3000/'); // Replace with your actual URL
+    cy.visit("index.html"); // Adjust the path if necessary
   });
 
-  it('has the correct title', () => {
-    cy.title().should('include', 'XProfile - My Virtual Profile Card');
+  describe("Navigation and Header", () => {
+    it("should display the logo correctly", () => {
+      cy.get("header .logo")
+        .should("be.visible")
+        .and("have.attr", "alt", "snap's logo");
+    });
+
+    it("should open and close the menu on mobile view", () => {
+      cy.viewport(375, 667); // Set to mobile view
+
+      cy.get(".open-menu").should("be.visible").click();
+      cy.get("nav").should("have.css", "transform", "matrix(1, 0, 0, 1, 0, 0)");
+      cy.get(".overlay").should("be.visible").and("have.css", "opacity", "1");
+
+      cy.get(".close-menu").should("be.visible").click();
+      cy.get(".overlay")
+        .should("not.be.visible")
+        .and("have.css", "opacity", "0");
+    });
+
+    it("should open and close the dropdown menu", () => {
+      cy.get(".nav-link").first().click();
+      cy.get(".nav-link").first().should("have.class", "link-open");
+      cy.get(".dropdown-list").first().should("be.visible");
+
+      cy.get(".nav-link").first().click();
+      cy.get(".nav-link").first().should("not.have.class", "link-open");
+      cy.get(".dropdown-list").first().should("not.be.visible");
+    });
+
+    it("should navigate to the correct sections in the dropdown menu", () => {
+      cy.get(".nav-link").first().click();
+      cy.get(".dropdown-link a")
+        .first()
+        .should("have.attr", "aria-label", "todo-list");
+    });
+
+    it("should display the login and register buttons", () => {
+      cy.get(".registration button").contains("Login").should("be.visible");
+      cy.get(".registration button").contains("Register").should("be.visible");
+    });
   });
 
-  it('displays a profile picture', () => {
-    cy.get('.profile-pic').should('be.visible');
+  describe("Main Content", () => {
+    it("should display the hero image correctly on mobile view", () => {
+      cy.viewport(375, 667); // Set to mobile view
+      cy.get("main picture img")
+        .should("have.attr", "src", "./images/image-hero-mobile.png")
+        .and("be.visible");
+    });
+
+    it("should display the hero image correctly on desktop view", () => {
+      cy.viewport(1280, 720); // Set to desktop view
+      cy.get("main picture source").should(
+        "have.attr",
+        "srcset",
+        "./images/image-hero-desktop.png"
+      );
+    });
+
+    it("should display the main heading and paragraph", () => {
+      cy.get(".text-content h1").should("contain.text", "Make remote work");
+      cy.get(".text-content p").should(
+        "contain.text",
+        "Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar."
+      );
+    });
+
+    it("should display client logos correctly", () => {
+      const clients = [
+        "client-databiz.svg",
+        "client-audiophile.svg",
+        "client-meet.svg",
+        "client-maker.svg",
+      ];
+      clients.forEach((client) => {
+        cy.get(`.clients img[src='./images/${client}']`).should("be.visible");
+      });
+    });
   });
 
-  it('shows the correct user name', () => {
-    cy.get('.profile-box h3').should('have.text', 'Learner Beaver');
-  });
-
-  it('displays the correct job title', () => {
-    cy.get('.profile-box p').should('have.text', 'Frontend Dev at CrioDo, Bengaluru');
-  });
-
-  it('has functioning social media links', () => {
-    cy.get('.social-media img').should('have.length', 3);
-  });
-
-  it('menu and settings icons are visible', () => {
-    cy.get('.menu-icon').should('be.visible');
-    cy.get('.setting-icon').should('be.visible');
-  });
-
-  it('applies the correct styles to the profile box', () => {
-    cy.get('.profile-box').should('have.css', 'background-color', 'rgb(255, 87, 74)') // Convert hex #ff574a to rgb
-      .and('have.css', 'text-align', 'center')
-      .and('have.css', 'padding', '40px 90px')
-      .and('have.css', 'color', 'rgb(255, 255, 255)') // #fff converted to rgb
-      .and('have.css', 'border-radius', '20px');
-  });
-
-  it('has correctly styled menu and setting icons', () => {
-    cy.get('.menu-icon').should('have.css', 'width', '25px');
-    cy.get('.setting-icon').should('have.css', 'width', '25px');
-  });
-
-  it('has a profile picture with the correct styles', () => {
-    cy.get('.profile-pic').should('have.css', 'width', '150px')
-      .and('have.css', 'border-radius', '50%') // #fff converted to rgb
-      .and('have.css', 'padding', '6px');
-  });
-
-  it('ensures social media images have the correct size and are clickable', () => {
-    cy.get('.social-media img').should('have.css', 'width', '20px')
-      .and('have.css', 'cursor', 'pointer');
+  describe("Footer Content", () => {
+    it("should display the footer attribution with correct links", () => {
+      cy.get(".attribution a")
+        .first()
+        .should("have.attr", "href", "https://crio.do")
+        .and("have.attr", "target", "_blank");
+    });
   });
 });
-
