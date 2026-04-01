@@ -3,7 +3,11 @@
   "browserPath": "",
   "browserVersion": "118.0.5993.159",
   "config": {
+<<<<<<< HEAD
     "projectRoot": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment",
+=======
+    "projectRoot": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment",
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
     "projectName": "assessment",
     "configFile": "cypress.config.js",
     "isTextTerminal": true,
@@ -15,7 +19,11 @@
     "clientCertificates": [],
     "defaultBrowser": null,
     "defaultCommandTimeout": 4000,
+<<<<<<< HEAD
     "downloadsFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/downloads",
+=======
+    "downloadsFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment/cypress/downloads",
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
     "env": {},
     "execTimeout": 60000,
     "experimentalCspAllowList": false,
@@ -31,8 +39,13 @@
     "experimentalSingleTabRunMode": false,
     "experimentalStudio": false,
     "experimentalWebKitSupport": false,
+<<<<<<< HEAD
     "fileServerFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment",
     "fixturesFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/fixtures",
+=======
+    "fileServerFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment",
+    "fixturesFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment/cypress/fixtures",
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
     "excludeSpecPattern": "*.hot-update.js",
     "includeShadowDom": false,
     "keystrokeDelay": 0,
@@ -40,7 +53,11 @@
     "numTestsKeptInMemory": 0,
     "platform": "linux",
     "pageLoadTimeout": 60000,
+<<<<<<< HEAD
     "port": 38571,
+=======
+    "port": 43527,
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -54,17 +71,28 @@
       "openMode": 0
     },
     "screenshotOnRunFailure": true,
+<<<<<<< HEAD
     "screenshotsFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots",
     "slowTestThreshold": 10000,
     "scrollBehavior": "top",
     "supportFile": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/support/e2e.js",
+=======
+    "screenshotsFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment/cypress/screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment/cypress/support/e2e.js",
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
     "taskTimeout": 60000,
     "testIsolation": true,
     "trashAssetsBeforeRuns": true,
     "userAgent": null,
     "video": false,
     "videoCompression": false,
+<<<<<<< HEAD
     "videosFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/videos",
+=======
+    "videosFolder": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment/cypress/videos",
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
     "viewportHeight": 660,
     "viewportWidth": 1000,
     "waitForAnimations": true,
@@ -108,7 +136,11 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.17.0",
+<<<<<<< HEAD
   "endedTestsAt": "2025-10-13T10:50:21.818Z",
+=======
+  "endedTestsAt": "2025-10-15T12:48:09.871Z",
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
   "osName": "linux",
   "osVersion": "Ubuntu - ",
   "runs": [
@@ -117,6 +149,7 @@
       "reporter": "spec",
       "reporterStats": {
         "suites": 1,
+<<<<<<< HEAD
         "tests": 10,
         "passes": 10,
         "pending": 0,
@@ -128,12 +161,26 @@
       "screenshots": [],
       "spec": {
         "absolute": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/e2e/spec.cy.js",
+=======
+        "tests": 12,
+        "passes": 12,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-10-15T12:48:02.815Z",
+        "end": "2025-10-15T12:48:09.878Z",
+        "duration": 7063
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "/home/crio-user/workspace/ayushisharmafzd1-ME_FE_BUILDOUT_XCRUISE/assessment/cypress/e2e/spec.cy.js",
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
         "fileExtension": ".js",
         "fileName": "spec",
         "name": "spec.cy.js",
         "relative": "cypress/e2e/spec.cy.js"
       },
       "stats": {
+<<<<<<< HEAD
         "duration": 7174,
         "endedAt": "2025-10-13T10:50:21.818Z",
         "failures": 0,
@@ -143,6 +190,17 @@
         "startedAt": "2025-10-13T10:50:14.644Z",
         "suites": 1,
         "tests": 10
+=======
+        "duration": 7067,
+        "endedAt": "2025-10-15T12:48:09.871Z",
+        "failures": 0,
+        "passes": 12,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-10-15T12:48:02.804Z",
+        "suites": 1,
+        "tests": 12
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
       },
       "tests": [
         {
@@ -152,11 +210,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 428,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "has the correct title"
+=======
+          "duration": 1685,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Navigation Bar - should display the xCruise logo"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -166,11 +232,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 269,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "displays a profile picture"
+=======
+          "duration": 276,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Navigation Bar - should have links to Home, Destinations, and Deals"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -180,11 +254,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 358,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "shows the correct user name"
+=======
+          "duration": 266,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Navigation Bar - should have a background color of #000033"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -194,11 +276,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 279,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "displays the correct job title"
+=======
+          "duration": 194,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Hero Section - should display the main heading"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -208,11 +298,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 236,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "has functioning social media links"
+=======
+          "duration": 184,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Hero Section - should have a Book Now button"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -222,11 +320,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 288,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "menu and settings icons are visible"
+=======
+          "duration": 182,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Hero Section - should display the hero image as a background"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -236,11 +342,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 248,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "applies the correct styles to the profile box"
+=======
+          "duration": 192,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Discover Section - should display the heading \"DISCOVER OUR DESTINATIONS\""
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -250,11 +364,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 283,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "has correctly styled menu and setting icons"
+=======
+          "duration": 184,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Discover Section - should display popular destinations with images"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -264,11 +386,19 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 252,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "has a profile picture with the correct styles"
+=======
+          "duration": 204,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Discover Section - should have cards with a cursor pointer on hover"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         },
         {
@@ -278,17 +408,54 @@
             }
           ],
           "displayError": null,
+<<<<<<< HEAD
           "duration": 324,
           "state": "passed",
           "title": [
             "XProfile Tests",
             "ensures social media images have the correct size and are clickable"
+=======
+          "duration": 210,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Discover Section - popular pills should have a shadow"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 275,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Contact Us Section - should display the Contact Us section with correct information"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 200,
+          "state": "passed",
+          "title": [
+            "xCruise Landing Page Tests",
+            "Footer Section - should display the Footer section with all elements correctly"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
           ]
         }
       ],
       "video": null
     }
   ],
+<<<<<<< HEAD
   "startedTestsAt": "2025-10-13T10:50:14.644Z",
   "totalDuration": 7174,
   "totalFailed": 0,
@@ -297,4 +464,14 @@
   "totalSkipped": 0,
   "totalSuites": 1,
   "totalTests": 10
+=======
+  "startedTestsAt": "2025-10-15T12:48:02.804Z",
+  "totalDuration": 7067,
+  "totalFailed": 0,
+  "totalPassed": 12,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 1,
+  "totalTests": 12
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
 }

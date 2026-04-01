@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "Test Case 1: XProfile Tests - has the correct title": "TEST_STATUS_SUCCESS",
     "Test Case 2: XProfile Tests - displays a profile picture": "TEST_STATUS_SUCCESS",
     "Test Case 3: XProfile Tests - shows the correct user name": "TEST_STATUS_SUCCESS",
@@ -9,4 +10,18 @@
     "Test Case 8: XProfile Tests - has correctly styled menu and setting icons": "TEST_STATUS_SUCCESS",
     "Test Case 9: XProfile Tests - has a profile picture with the correct styles": "TEST_STATUS_SUCCESS",
     "Test Case 10: XProfile Tests - ensures social media images have the correct size and are clickable": "TEST_STATUS_SUCCESS"
+=======
+    "Test Case 1: xCruise Landing Page Tests - Navigation Bar - should display the xCruise logo": "TEST_STATUS_SUCCESS",
+    "Test Case 2: xCruise Landing Page Tests - Navigation Bar - should have links to Home, Destinations, and Deals": "TEST_STATUS_SUCCESS",
+    "Test Case 3: xCruise Landing Page Tests - Navigation Bar - should have a background color of #000033": "TEST_STATUS_SUCCESS",
+    "Test Case 4: xCruise Landing Page Tests - Hero Section - should display the main heading": "TEST_STATUS_SUCCESS",
+    "Test Case 5: xCruise Landing Page Tests - Hero Section - should have a Book Now button": "TEST_STATUS_SUCCESS",
+    "Test Case 6: xCruise Landing Page Tests - Hero Section - should display the hero image as a background": "TEST_STATUS_SUCCESS",
+    "Test Case 7: xCruise Landing Page Tests - Discover Section - should display the heading \"DISCOVER OUR DESTINATIONS\"": "TEST_STATUS_SUCCESS",
+    "Test Case 8: xCruise Landing Page Tests - Discover Section - should display popular destinations with images": "TEST_STATUS_SUCCESS",
+    "Test Case 9: xCruise Landing Page Tests - Discover Section - should have cards with a cursor pointer on hover": "TEST_STATUS_SUCCESS",
+    "Test Case 10: xCruise Landing Page Tests - Discover Section - popular pills should have a shadow": "TEST_STATUS_SUCCESS",
+    "Test Case 11: xCruise Landing Page Tests - Contact Us Section - should display the Contact Us section with correct information": "TEST_STATUS_SUCCESS",
+    "Test Case 12: xCruise Landing Page Tests - Footer Section - should display the Footer section with all elements correctly": "TEST_STATUS_SUCCESS"
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
 }

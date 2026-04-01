@@ -38,4 +38,8 @@ if [ -f "assesment_result.json" ]; then
     echo "Assessment results generated"
 else
     echo "Python script failed!!!"
+<<<<<<< HEAD
 fi
+=======
+fi
+>>>>>>> bd37c7d75beabdea437aed744400a6c9361b3d8e
